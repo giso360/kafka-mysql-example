@@ -35,7 +35,7 @@ b./ view messages @ specific offset and beyond
 ----------------------------------------------
 kafka-console-consumer  --bootstrap-server 127.0.0.1:9092 --topic <topic_name> --partition <partition_no> --offset <offset_no>
 
-c./ delete topic
+c./ delete topic(s)
 ----------------------------------------------
 kafka-topics --zookeeper localhost:2181 --delete --topic <topic_name>
 
